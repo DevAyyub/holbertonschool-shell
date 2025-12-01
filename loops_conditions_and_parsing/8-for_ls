@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# Displays filenames in current directory, removing the prefix up to the first dash
+for file in *
+do
+    echo "${file#*-}"
+done
